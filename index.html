@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Recomendador de Filmes - Outlast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Recomendador de Filmes - Outlast</h1>
+    </header>
+
+    <section id="filmes-recomendados">
+        <h2>Filmes Recomendados sobre Outlast</h2>
+        <!-- Vídeo relacionado ao Outlast -->
+        <div class="filme" id="filme1">
+            <h3>Outlast - Gameplay Completo</h3>
+            <p>#Outlast #Survival #Horror #Gameplay</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dyuIuOQqX28?si=iaKRxc5gRM4XLdjm" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Seção de Dicas Soltas sobre Outlast -->
+    <section id="dicas">
+        <h2>Dicas para Jogar Outlast</h2>
+        <ul>
+            <li>Não se apresse! Explore bem o ambiente para não perder itens importantes.</li>
+            <li>Use as câmeras com sabedoria para iluminar áreas escuras e encontrar pistas.</li>
+            <li>Fique atento aos sons, eles podem ser um bom indicativo de algo por perto!</li>
+            <li>Mantenha a calma, pois em Outlast a tensão é um dos maiores inimigos.</li>
+            <li>Lembre-se de salvar sempre que possível, você nunca sabe o que vem a seguir!</li>
+            <li>Evite fazer barulho desnecessário para não chamar a atenção dos inimigos.</li>
+        </ul>
+    </section>
+
+    <!-- Seção de Comentários sobre Outlast -->
+    <section id="comentarios">
+        <h2>Deixe seu comentário sobre o jogo Outlast</h2>
+        <textarea id="comentario" placeholder="Escreva seu comentário aqui..." rows="4"></textarea>
+        <button onclick="adicionarComentario()">Adicionar Comentário</button>
+        <div id="lista-comentarios">
+            <h3>Comentários:</h3>
+            <!-- Os comentários serão listados aqui -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Recomendador de Filmes - Outlast</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<script src="script.js"></script>
